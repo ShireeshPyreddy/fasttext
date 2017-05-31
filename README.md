@@ -7,9 +7,7 @@ Text/Sentence Classification Python Module
   
 # Training Data Set Format:
 
-Example: 
-
-__label__moviereview The film's two major strengths come down to the two most important ingredients - cast and story.
+Example:  __label__moviereview The film's two major strengths come down to the two most important ingredients - cast and story.
 
 Explanation:
 
@@ -19,9 +17,7 @@ Label_name: moviereview
 
 Sentence: The film's two major strengths come down to the two most important ingredients - cast and story.
 
-Note: 
-
-There should be space between Label_name and Sentence and there should be one Sentence/Line followed by it's Label_name.
+Note: There should be space between Label_name and Sentence and there should be one Sentence/Line followed by it's Label_name.
   
 # Training the Data Set:
 
@@ -51,9 +47,7 @@ There should be space between Label_name and Sentence and there should be one Se
 
     predict_prob = model.predict_proba(sentence, k=2)
 
-Note: 
-
-k value indicates no. of label predictions.
+Note: k value indicates no. of label predictions.
 
 
 
