@@ -3,7 +3,7 @@ Text/Sentence Classification Python Module
 
 # Installation:
 
-  pip install fasttext
+    pip install fasttext
   
 # Training Data Set Format:
 
